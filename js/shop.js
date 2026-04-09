@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-headline font-bold mb-2">${product.name}</h3>
                     <div class="mt-auto flex justify-between items-center pt-4">
-                        <span class="text-lg font-bold text-primary">₹${product.price.toFixed(2)}</span>
+                        <span class="text-lg font-bold text-primary">₹ ${product.price.toFixed(2)}</span>
                         <button class="bg-primary/10 text-primary p-2 rounded-lg hover:bg-primary hover:text-white transition-colors">
                             <span class="material-symbols-outlined text-sm">add_shopping_cart</span>
                         </button>
