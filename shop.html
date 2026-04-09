@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Shop | Blossom Bae</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-background": "#1a1c19",
+                        "surface-variant": "#e3e3de",
+                        "primary": "#293e2f",
+                        "primary-container": "#3f5545",
+                        "secondary": "#9f402d",
+                        "on-surface": "#1a1c19",
+                        "on-surface-variant": "#42493e",
+                        "surface-container-low": "#f4f4ef",
+                        "surface-container-lowest": "#ffffff"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body class="bg-[#fafaf5] text-on-surface font-body leading-relaxed flex flex-col min-h-screen">
+    <app-header></app-header>
+    
+    <main class="flex-grow pt-32 pb-24 px-8 max-w-screen-2xl mx-auto w-full">
+        <div class="mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-headline font-bold text-primary mb-4">Botanical Collection</h1>
+            <p class="text-on-surface-variant max-w-xl mx-auto">Browse our curated selection of rare and resilient plants for any space.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="flex justify-center gap-4 mb-12">
+            <button class="filter-btn active px-6 py-2 rounded-full border border-primary text-primary font-bold hover:bg-primary/5 transition-all" data-category="all">All</button>
+            <button class="filter-btn px-6 py-2 rounded-full border border-outline-variant text-stone-500 font-bold hover:border-primary transition-all" data-category="indoor">Indoor</button>
+            <button class="filter-btn px-6 py-2 rounded-full border border-outline-variant text-stone-500 font-bold hover:border-primary transition-all" data-category="outdoor">Outdoor</button>
+            <button class="filter-btn px-6 py-2 rounded-full border border-outline-variant text-stone-500 font-bold hover:border-primary transition-all" data-category="balcony">Balcony</button>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="flex justify-center items-center py-24">
+            <span class="material-symbols-outlined animate-spin text-4xl text-primary">eco</span>
+        </div>
+
+        <!-- Product Grid -->
+        <div id="product-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 hidden">
+            <!-- Dynamically populated by JS -->
+        </div>
+    </main>
+
+    <app-footer></app-footer>
+
+    <script src="js/components.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/shop.js"></script>
+</body>
+</html>

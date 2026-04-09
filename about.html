@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>About Us | Blossom Bae</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-background": "#1a1c19",
+                        "surface-variant": "#e3e3de",
+                        "primary": "#293e2f",
+                        "primary-container": "#3f5545",
+                        "secondary": "#9f402d",
+                        "on-surface": "#1a1c19",
+                        "on-surface-variant": "#42493e",
+                        "surface-container-low": "#f4f4ef",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container": "#eeeee9"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body class="bg-[#fafaf5] text-on-surface font-body leading-relaxed flex flex-col min-h-screen">
+    <app-header></app-header>
+    
+    <main class="flex-grow pt-32 pb-24 px-8 max-w-screen-2xl mx-auto w-full">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl font-headline font-bold text-primary mb-8 text-center">Our Story</h1>
+            
+            <div class="rounded-3xl overflow-hidden mb-12 shadow-2xl h-96">
+                <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Greenhouse interior" class="w-full h-full object-cover">
+            </div>
+
+            <div class="space-y-8 text-lg text-on-surface-variant">
+                <p>
+                    Blossom Bae began in a tiny Brooklyn apartment with three dying ferns and a determination to figure out what went wrong. What started as a personal quest to keep a few houseplants alive blossomed into a passion for urban botany and biophilic design.
+                </p>
+                <p>
+                    Today, we are a collective of horticulturists, designers, and plant enthusiasts dedicated to reconnecting city dwellers with nature. We believe that incorporating living elements into our personal spaces isn't just about aesthetics—it's a critical component of modern well-being.
+                </p>
+                <div class="bg-surface-container-low p-8 rounded-2xl border-l-4 border-secondary my-12">
+                    <h3 class="text-2xl font-headline font-bold text-primary mb-4">Our Mission</h3>
+                    <p class="text-base">To make the transformative power of plants accessible, sustainable, and beautiful for every living space, regardless of the size or the owner's experience level.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 text-center">
+                <div class="space-y-4">
+                    <span class="material-symbols-outlined text-4xl text-primary block">volunteer_activism</span>
+                    <h4 class="font-headline font-bold text-xl">Ethically Sourced</h4>
+                    <p class="text-sm">We partner exclusively with sustainable nurseries.</p>
+                </div>
+                <div class="space-y-4">
+                    <span class="material-symbols-outlined text-4xl text-primary block">psychiatry</span>
+                    <h4 class="font-headline font-bold text-xl">Expert Support</h4>
+                    <p class="text-sm">Lifelong care advice for every plant you purchase.</p>
+                </div>
+                <div class="space-y-4">
+                    <span class="material-symbols-outlined text-4xl text-primary block">recycling</span>
+                    <h4 class="font-headline font-bold text-xl">Eco-Packaging</h4>
+                    <p class="text-sm">100% biodegradable and recycled shipping materials.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <app-footer></app-footer>
+
+    <script src="js/components.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
