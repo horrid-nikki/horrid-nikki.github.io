@@ -1,0 +1,50 @@
+[
+    {
+        "id": "p1",
+        "name": "Monstera Deliciosa",
+        "price": 45.00,
+        "category": "indoor",
+        "image": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "alt": "Lush Monstera plant"
+    },
+    {
+        "id": "p2",
+        "name": "Fiddle Leaf Fig",
+        "price": 65.00,
+        "category": "indoor",
+        "image": "https://images.unsplash.com/photo-1597055181300-848e35bbdbf7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "alt": "Fiddle Leaf Fig in a pot"
+    },
+    {
+        "id": "p3",
+        "name": "Snake Plant",
+        "price": 25.00,
+        "category": "indoor",
+        "image": "https://images.unsplash.com/photo-1598889104192-3afaba479267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "alt": "Snake Plant"
+    },
+    {
+        "id": "p4",
+        "name": "Japanese Maple Tree",
+        "price": 120.00,
+        "category": "outdoor",
+        "image": "https://images.unsplash.com/photo-1508247076121-6556e2978f84?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "alt": "Red Japanese Maple Tree"
+    },
+    {
+        "id": "p5",
+        "name": "Lavender Bush",
+        "price": 30.00,
+        "category": "outdoor",
+        "image": "https://images.unsplash.com/photo-1508215570889-ebf423ab6f2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "alt": "Lavender bushes"
+    },
+    {
+        "id": "p6",
+        "name": "Trailing Ivy",
+        "price": 18.00,
+        "category": "balcony",
+        "image": "https://images.unsplash.com/photo-1627885408719-74e2d3bbbd36?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "alt": "Trailing Ivy hanging"
+    }
+]
