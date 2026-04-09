@@ -1,0 +1,46 @@
+[
+    {
+        "id": "post1",
+        "title": "How to revive my Fern?",
+        "author": "Sarah Jenkins",
+        "timeAgo": "2 hours ago",
+        "category": "Care Guides",
+        "categoryColor": "secondary",
+        "snippet": "\"The tips are turning brown despite misting daily. Am I overwatering or is it the light?\"",
+        "replies": 24,
+        "likes": 12
+    },
+    {
+        "id": "post2",
+        "title": "Best balcony plants for direct sun",
+        "author": "UrbanGardener99",
+        "timeAgo": "5 hours ago",
+        "category": "Discussions",
+        "categoryColor": "primary",
+        "snippet": "\"Moving to a south-facing apartment. Need suggestions for plants that love the heat!\"",
+        "replies": 42,
+        "likes": 38
+    },
+    {
+        "id": "post3",
+        "title": "New rare find: Monstera Albo!",
+        "author": "PlantDad",
+        "timeAgo": "1 day ago",
+        "category": "Discussions",
+        "categoryColor": "primary",
+        "snippet": "\"Just scored this beauty from the local market. Any tips on maintaining the variegation?\"",
+        "replies": 18,
+        "likes": 56
+    },
+    {
+        "id": "post4",
+        "title": "Is this a spider mite?",
+        "author": "NewbiePlantLover",
+        "timeAgo": "2 days ago",
+        "category": "Pest Control",
+        "categoryColor": "secondary",
+        "snippet": "\"I saw tiny cobwebs on the underside of my Calathea's leaves. What is the best organic treatment?\"",
+        "replies": 15,
+        "likes": 8
+    }
+]
