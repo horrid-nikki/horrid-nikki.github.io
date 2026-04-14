@@ -42,35 +42,47 @@
     </style>
 </head><body class="bg-white">
 
-    <nav class="flex items-center justify-between px-8 py-4 border-b">
-       !-- <div class="text-2xl font-bold text-green-800 font-headline">Blossom Bae</div>
-        <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
-            <a href="#" class="text-green-800 border-b-2 border-green-800">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">Services</a>
-            <a href="#">Community</a>
-            <a href="#">About</a>
-        </div>
-        <div class="flex items-center space-x-4 text-gray-600">
-            <span>🛒</span>
-            <span>👤</span>
-        </div>
-    </nav>--!
+<nav class="flex items-center justify-between px-8 py-4 border-b bg-white sticky top-0 z-50">
+    <div class="text-2xl font-bold text-green-800 font-headline">
+        <a href="index.html">Blossom Bae</a>
+    </div>
+    
+    <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+        <a href="index.html" class="text-green-800 border-b-2 border-green-800 pb-1">Home</a>
+        <a href="shop.html" class="hover:text-green-800 transition">Shop</a>
+        <a href="services.html" class="hover:text-green-800 transition">Services</a>
+        <a href="community.html" class="hover:text-green-800 transition">Community</a>
+        <a href="about.html" class="hover:text-green-800 transition">About</a>
+    </div>
 
-    <header class="relative h-[600px] flex items-center px-12 bg-cover bg-center" style="background-image: linear-gradient(to right, rgba(255,255,255,0.8), transparent), url('your-hero-image.jpg');">
-        <div class="max-w-2xl">
-            <h1 class="text-7xl font-headline leading-tight text-gray-900">
-                Bring Life <br> to Your <span class="text-orange-800 italic">Space</span>
-            </h1>
-            <p class="mt-6 text-gray-600 text-lg">
-                Discover a curated collection of rare botanical treasures and expert care services designed to turn your home into a thriving greenhouse.
-            </p>
-            <div class="mt-8 flex space-x-4">
-                <button class="bg-green-900 text-white px-8 py-3 rounded-md flex items-center">Shop Now <span class="ml-2">→</span></button>
-                <button class="bg-white border border-gray-300 px-8 py-3 rounded-md">Join Community</button>
-            </div>
+    <div class="flex items-center space-x-5 text-gray-600">
+        <a href="shop.html" class="hover:text-green-800">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        </a>
+        <button class="hover:text-green-800">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+    </div>
+</nav>
+
+<header class="relative h-[600px] flex items-center px-12 bg-cover bg-center" style="background-image: linear-gradient(to right, rgba(255,255,255,0.8), transparent), url('your-hero-image.jpg');">
+    <div class="max-w-2xl">
+        <h1 class="text-7xl font-headline leading-tight text-gray-900">
+            Bring Life <br> to Your <span class="text-orange-800 italic">Space</span>
+        </h1>
+        <p class="mt-6 text-gray-600 text-lg">
+            Discover a curated collection of rare botanical treasures and expert care services designed to turn your home into a thriving greenhouse.
+        </p>
+        <div class="mt-8 flex space-x-4">
+            <a href="shop.html" class="bg-green-900 text-white px-8 py-3 rounded-md flex items-center hover:bg-green-800 transition">
+                Shop Now <span class="ml-2">→</span>
+            </a>
+            <a href="community.html" class="bg-white border border-gray-300 px-8 py-3 rounded-md hover:bg-gray-50 transition text-center">
+                Join Community
+            </a>
         </div>
-    </header>
+    </div>
+</header>
 
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-12 bg-gray-50">
         <div class="p-8 bg-white rounded-lg shadow-sm">
