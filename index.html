@@ -1,27 +1,96 @@
-<section class="py-24 bg-primary text-on-primary">
-    <div class="max-w-screen-2xl mx-auto px-8">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl font-headline font-bold mb-4">
-                Trusted by kakkathollairam Plant Parents
-            </h2>
-            <p class="text-primary-fixed-dim">
-                Join a growing community of botanical enthusiasts.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blossom Bae | Live Plants</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap');
+        .font-headline { font-family: 'Playfair+Display', serif; }
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-white">
+
+    <nav class="flex items-center justify-between px-8 py-4 border-b">
+        <div class="text-2xl font-bold text-green-800 font-headline">Blossom Bae</div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+            <a href="#" class="text-green-800 border-b-2 border-green-800">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Services</a>
+            <a href="#">Community</a>
+            <a href="#">About</a>
+        </div>
+        <div class="flex items-center space-x-4 text-gray-600">
+            <span>🛒</span>
+            <span>👤</span>
+        </div>
+    </nav>
+
+    <header class="relative h-[600px] flex items-center px-12 bg-cover bg-center" style="background-image: linear-gradient(to right, rgba(255,255,255,0.8), transparent), url('your-hero-image.jpg');">
+        <div class="max-w-2xl">
+            <h1 class="text-7xl font-headline leading-tight text-gray-900">
+                Bring Life <br> to Your <span class="text-orange-800 italic">Space</span>
+            </h1>
+            <p class="mt-6 text-gray-600 text-lg">
+                Discover a curated collection of rare botanical treasures and expert care services designed to turn your home into a thriving greenhouse.
             </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center mb-20 opacity-70 grayscale contrast-125">
-            <div>
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSczDLOTRbv4dANhz6sNaEG8bq4nLNRmB_8q0Ka-q2HPEAv9bDcJhQZkHp45DNgahE5rduWtO-Oos1sVTeq8vrYfSO6PwMD9S5tXgkLK1TxSRyoQdVf2HTk6pNJeDR-ykvFdUBzgYe36lJ4TyHN2N5eWGpKfXn7AyMTvzytIq0exruk_nq60T--B7nnk67egX4x3ifUA0CoBwCBjjWOHCzFPfDPociQWpR_hoqCBDBFFixc0psNUhuizs8mQtJs1rOe1eId9HheULT" />
-            </div>
-            
-            <div class="text-left">
-                <p class="font-bold">sreya kiran</p>
-                <p class="text-sm opacity-70">Varkala</p>
+            <div class="mt-8 flex space-x-4">
+                <button class="bg-green-900 text-white px-8 py-3 rounded-md flex items-center">Shop Now <span class="ml-2">→</span></button>
+                <button class="bg-white border border-gray-300 px-8 py-3 rounded-md">Join Community</button>
             </div>
         </div>
-    </div>
-</section>
+    </header>
 
-<script src="js/api.js"></script>
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-12 bg-gray-50">
+        <div class="p-8 bg-white rounded-lg shadow-sm">
+            <div class="text-2xl mb-4">🍃</div>
+            <h3 class="font-bold mb-2">Eco-Friendly Delivery</h3>
+            <p class="text-sm text-gray-500">Carbon neutral shipping in biodegradable packaging that respects the Earth.</p>
+        </div>
+        <div class="p-8 bg-white rounded-lg shadow-sm">
+            <div class="text-2xl mb-4">🪴</div>
+            <h3 class="font-bold mb-2">Curated Variety</h3>
+            <p class="text-sm text-gray-500">From rare variegated monstera to resilient snake plants, hand-picked for quality.</p>
+        </div>
+        <div class="p-8 bg-white rounded-lg shadow-sm">
+            <div class="text-2xl mb-4">🌿</div>
+            <h3 class="font-bold mb-2">Expert Advice</h3>
+            <p class="text-sm text-gray-500">24/7 access to our team of botanists to keep your green family thriving.</p>
+        </div>
+        <div class="p-8 bg-white rounded-lg shadow-sm">
+            <div class="text-2xl mb-4">💵</div>
+            <h3 class="font-bold mb-2">Fair Pricing</h3>
+            <p class="text-sm text-gray-500">Premium botanical quality at honest prices, direct from our greenhouse to you.</p>
+        </div>
+    </section>
+
+    <section class="bg-green-950 text-white py-24 text-center">
+        <h2 class="text-4xl font-headline font-bold mb-2">Trusted by kakkathollairam Plant Parents</h2>
+        <p class="opacity-70 text-sm mb-16">Join a growing community of botanical enthusiasts.</p>
+        
+        <div class="flex justify-center space-x-12 opacity-50 italic text-xl mb-20">
+            <span>Botanic Daily</span>
+            <span>Green Living</span>
+            <span>Urban Forest</span>
+        </div>
+
+        <div class="max-w-3xl mx-auto bg-white/10 p-12 rounded-2xl backdrop-blur-sm border border-white/10">
+            <p class="text-2xl leading-relaxed italic mb-8">
+                "Blossom Bae didn't just sell me a plant; they gave me the confidence to actually keep it alive. Their care guides are second to none, and my living room has never looked more vibrant."
+            </p>
+            <div class="flex items-center justify-center space-x-4">
+                <div class="w-12 h-12 rounded-full bg-gray-400 overflow-hidden">
+                    <img src="https://via.placeholder.com/50" alt="Nikhitha">
+                </div>
+                <div class="text-left">
+                    <p class="font-bold">Nikhitha</p>
+                    <p class="text-xs opacity-60 uppercase tracking-widest">Varkala</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
